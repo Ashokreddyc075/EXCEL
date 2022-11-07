@@ -1,0 +1,24 @@
+XLOOUP:
+======
+=XLOOUP(lookup_value,look_array,return_array,[if_not_found],[match_mode],[search_mode])
+
+lookup_value     = what value are you searching
+look_array       = what do find what you're search
+return_array     = where do want to fetch answer from 
+[if_not_found]   = IFEROOR
+[match_mode]     =  0 - Exact Match
+                   -1 - Exact match or next smaller item
+                    1 - Exact match or next larger item
+                    2 - wildcard character match
+[search_mode]  =    1 - Search first to last
+                    2 - Search last to first 
+                    
+Region	Emp ID	Name	Age
+=========================
+North	  22111	  Amy	    32
+East	  12000	  John	  36
+South	  22099	  Harvey	20
+West	  22111	  Amy	    33
+
+Emp ID	22111
+=XLOOKUP(G10,$B$10:$B$14,$D$10:$D$14,"NA",0,1) ===> 32
