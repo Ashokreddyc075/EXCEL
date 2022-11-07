@@ -1,0 +1,19 @@
+VLOOKUP:
+=======
+When you need to find information in a large spreadsheet, or you are always looking for the same kind of information, use the VLOOKUP function. 
+VLOOKUP works a lot like a phone book, where you start with the piece of data you know, like someone's name, in order to find out what you don't know, 
+like their phone number.
+
+=VLOOKUP(What you want to look up, 
+        where you want to look for it, 
+        the column number in the range containing the value to return, 
+        return an Approximate or Exact match – indicated as 1/TRUE, or 0/FALSE).
+Syntax:
+======
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+Limitations of VLOOKUP:
+======================
+==>  One major limitation of VLOOKUP is that it cannot look to the left. 
+==>  The values to lookup must always be on the left-most column of the range and the values to return must be on the right hand side.
+==>  You cannot use the standard VLOOKUP to look at the columns and the rows to find an exact match.
