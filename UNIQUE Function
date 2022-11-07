@@ -13,11 +13,11 @@ Remove duplicate entries (rows)
                       
 EX:
 ==
-Red	   10
-Red	   20
-Black  1
-Blue	 5
-Blue	 5
+Red	    10
+Red	    20
+Black   1
+Blue    5
+Blue	5
 
 =UNIQUE(B16:C20,FALSE,TRUE)
 
@@ -27,7 +27,7 @@ Black  1
 
 =UNIQUE(B16:C20,FALSE,FALSE)
 
-Red  	10
-Red	  20
+Red     10
+Red	    20
 Black	1
 Blue	5
