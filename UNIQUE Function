@@ -1,0 +1,33 @@
+UNIQUE
+======
+The UNIQUE function will return an array.
+It's like Remove Duplicates
+Remove duplicate entries (rows)
+
+= UNIQUE(array,[by_col],[exactly_once])
+    arry            = Range of rows or coloumns 
+    [by_col]        = TRUE  - Return unique columns,
+                      FALSE - Return unique rowa
+    [exactly_once]  = TRUE  - Return items that appear exactly once
+                      FALSE - Return every distinct item.
+                      
+EX:
+==
+Red	   10
+Red	   20
+Black  1
+Blue	 5
+Blue	 5
+
+=UNIQUE(B16:C20,FALSE,TRUE)
+
+Red	   10
+Red	   20
+Black  1
+
+=UNIQUE(B16:C20,FALSE,FALSE)
+
+Red  	10
+Red	  20
+Black	1
+Blue	5
