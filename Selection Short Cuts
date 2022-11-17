@@ -1,0 +1,51 @@
+Select Table Entire Column at a time:
+====================================
+    ctrl + spacebar 
+
+Seletc Tanble enire row at a time:
+=================================
+    shift + spacebar
+   
+select data range:
+=================
+      ctlr + A
+Seletc entire sheet:
+===================
+      ctrl+A (agin press) ctrl+A
+      
+Expand Selection:
+================
+  we need to select Some range after,after expand selection 
+  
+       Right side : ctrl + Right arrow (->)
+       left side  : ctrl + Left arrow (<-)
+       Down side  : ctrl + Down Arrow 
+       Up side    : ctrl + up Arrow 
+
+In selction range we have select last and first column (row)
+    
+     select data upto end : ctlr + shift +  Right Arrow (->),left arrow,up arrow,down arrow.
+   
+Extend selection up one screen:
+==============================
+      shift + pageup
+      
+Extend selection down one screen:
+================================
+      Shift + pagedown
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
