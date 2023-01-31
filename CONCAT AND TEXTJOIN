@@ -3,7 +3,7 @@
  =CONCAT(TEXT1,TEX2,....)
  
 = TEXTJOIN(delimiter,ignore_empty,text1,text2,...)
-    Delimiter    = we metion in double double quotes EX = ","
+    Delimiter    = we metion in double quotes EX = ","
     ignore_empty = True  = Ignore Empty cells,
                    False = Include Empty cells.
                    
