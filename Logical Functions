@@ -1,0 +1,75 @@
+Logical Functions:
+=================
+AND() ----> TRUE only when all the given conditions are true.
+FALSE()
+IF()
+IFS()
+IFERROR()
+NOT()
+OR ()
+TRUE()
+
+AND():
+=====
+•	If both conditions are true, it will return true 
+•	If both conditions are false, it will return false 
+•	One condition is false it will return false 
+        = AND("TRUE","TRUE")  = TRUE
+        = AND("TRUE","FALSE") = FALSE
+        = AND("FALSE","FALSE") = FALSE
+OR():
+====
+AND:
+= AND (logical1, [logical2], …)
+•	If both conditions are true, it will return true 
+•	If both conditions are false, it will return false 
+•	One condition is false it will return false 
+Formula	Results
+= AND("TRUE","TRUE")	TRUE
+=AND("TRUE","FALSE")	FALSE
+= AND("FALSE","FALSE")	FALSE
+OR:
+= OR (logical1, [logical2], …)
+•	If both one conditions is true it will return true 
+•	If both conditions are true, it will return true 
+•	If both conditions are false, it will return false 
+Formula	Results
+= OR("TRUE","TRUE")	TRUE
+=OR("TRUE","FALSE")	TRUE
+= OR("FALSE","FALSE")	FALSE
+NOTE:
+•	In excel Zero (0) consider as False
+•	And One (1) Consider as True 
+Formula	Results
+=TRUE+TRUE	2
+=FALSE+FALSE	0
+=TRUE+FALSE	1
+IF
+=IF (logical_test, [value_if_true], [value_if_false])
+•	It returns whatever value you specify for the TRUE or FALSE condition.
+•	If logical test is true, it will true statement 
+•	If logical test is false, it will return false statement 
+Formula	Results
+=IF (1=1,” T”,” F ”)	T
+=IF (1=2,” T”,” F”)	F
+
+
+
+
+
+
+Operators 
+Operators	Condition
+>	Greater Than
+<	Less Than
+=	Equal to
+>=	Greater Than or equal to
+<=	Less Than or equal to
+<>	Not equal to
+
+
+
+ 
+
+
+
